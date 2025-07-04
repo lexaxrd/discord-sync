@@ -1,0 +1,39 @@
+language: "tr"
+permissions:
+  vip:
+    lp_rank: "vip"
+    role_id: "VERILCEK_ROLUN_ID"
+  vip+:
+    lp_rank: "vip+"
+    role_id: "VERILCEK_ROLUN_ID"
+  rvip+:
+    lp_rank: "rvip+"
+    role_id: "VERILCEK_ROLUN_ID"
+discord:
+  guild:
+    guild_id: "SUNUCU_ID"
+    update_nickname: true
+    nickname_format: "%discord_name% - %minecraft_name%"
+  messages:
+    sync_successful: "Hesabınız başarıyla eşlendi!"
+    sync_error: "Geçersiz veya kullanılmış kod! Oyun içerisinden yeni kod alın."
+    role_given: "Rol verildi: %msg%"
+    role_failed: "Rol verilemedi: %msg%"
+    role_removed: "Rol kaldırıldı: %msg%"
+    role_removal_failed: "Rol kaldırılamadı: %msg%"
+    error: "Hata oluştu, tekrar deneyin: %error_message%"
+  bot:
+    token: "BOT_TOKEN"
+    channel_id: "CHANNEL_ID"
+    embed:
+      name: "Minecraft hesabınızı eşleyin!"
+      desc: "Oyun içerisinde /discord-esle komutunu kullanarak eşleme kodu alabilirsiniz."
+      color:
+        r: 0
+        g: 0
+        b: 255
+      footer: "Sunucu Adı | Hesap Eşle"
+      button-name: "Eşle"
+      text-input-name: "Eşleme Kodu"
+      text-input-placeholder: "Örn: ABC123"
+      modal-name: "Hesap Eşleme"

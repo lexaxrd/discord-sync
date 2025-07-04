@@ -1,0 +1,39 @@
+tr:
+  general:
+    only-players: "Bu komutu sadece oyuncular kullanabilir."
+    no-permission: "Bu komutu kullanmak için yetkiniz yok."
+  discord:
+    already-synced: "Hesabınız zaten bağlı!"
+    sync-code: "Hesap eşleme kodunuz: %code%. Eşleme mesajındaki Eşle butonuna tıklayın ve kodu girin."
+  bot:
+    embed-sent: "Embed mesajı Discord sunucusuna gönderildi!"
+    token-required: "Bot tokeni eksik, lütfen config.yml dosyasına botunuzun tokenini girin."
+    starting-message: "Discord botu başlatılıyor."
+    login-message: "Bot sunucuya giriş yaptı: %bot_name%"
+    failed-start-message: "Bot başlatılamadı: %error_message%"
+    slash-commands-registering: "Slash Komutları yükleniyor..."
+    slash-commands-registered: "Slash Komutları yüklendi."
+    channel-id-required: "config.yml dosyasına channel_id bölümüne kanal id'nizi girin."
+    slash1:
+      name: "hesapesle"
+      desc: "Minecraft hesabınızla Discord hesabınızı eşler"
+      options:
+        option1:
+          name: "kod"
+          desc: "Oyun içinde aldığınız bağlantı kodu"
+en:
+  general:
+    only-players: "Only players can use this command."
+    no-permission: "You don't have permission to use this command."
+  discord:
+    already-synced: "Your account already synced!"
+    sync-code: "Your account sync code: %code%. Click the Sync button in the syncing message and enter the code."
+  bot:
+    embed-sent: "Embed message has been sent to Discord"
+    token-required: "Bot token is missing, please enter your bot's token in config.yml file."
+    starting-message: "Discord bot is starting."
+    login-message: "Bot logged into the server: %bot_name%"
+    failed-start-message: "Bot failed to start: %error_message%"
+    slash-commands-registering: "Loading slash commands"
+    slash-commands-registered: "Slash commands have been registered"
+    channel-id-required: "Enter your channel ID in the channel_id section of the config.yml file."

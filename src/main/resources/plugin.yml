@@ -1,0 +1,16 @@
+name: DiscordSyncSource
+version: '1.0'
+main: xyz.themis.discordSyncSource.Main
+api-version: '1.13'
+authors: [ Themis ]
+description: Plugin Minecraft hesabıyla Discord hesabını eşlemenizi sağlar.
+softdepend:
+  - LuckPerms
+commands:
+  esle-mesaj-gonder:
+    usage: /esle-mesaj-gonder
+    description: Eşleşme mesajını Discord kanalına gönderir.
+    permission: roselia.sendsyncmessage
+  discord-esle:
+    usage: /discord-esle
+    description: Discord hesabınızla eşlemek için eşleme kodu üretir.
