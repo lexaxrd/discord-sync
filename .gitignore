@@ -1,2 +1,50 @@
-.idea/
+# Kotlin build klasörleri
+/out/
+/build/
+
+# Maven target klasörü
 /target/
+
+# IntelliJ IDEA
+.idea/
+/*.iml
+*.iws
+
+# OS klasörleri
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+*.log
+
+# Maven bağımlılık klasörü (opsiyonel, local cache)
+/.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Maven wrapper çıktıları
+mvnw
+mvnw.cmd
+
+# Java class dosyaları
+*.class
+
+# Gradle dosyası varsa yanlışlıkla eklenmemesi için
+.gradle/
+gradlew
+gradlew.bat
+
+# VSCode klasörü (kullanan varsa)
+.vscode/
+
+# Test çıktıları
+/test-output/
+/surefire-reports/
+
+/.env
+.env.local
+.env.*.local
+
+# Temporary dosyalar
+*.tmp
+*.swp
+*.swo
